@@ -1,0 +1,17 @@
+Source: subgraph-sysctl-config
+Section: config
+Priority: extra
+Maintainer: David McKinney <mckinney@subgraph.com>
+Build-Depends: debhelper (>= 9), config-package-dev
+Standards-Version: 3.9.6
+Homepage: https://subgraph.com/sgos/index.en.html
+#Vcs-Git: git://anonscm.debian.org/collab-maint/subgraph-ferm-config.git
+#Vcs-Browser: https://anonscm.debian.org/gitweb/?p=collab-maint/subgraph-ferm-config.git;a=summary
+
+Package: subgraph-sysctl-config
+Architecture: all
+Depends: ${misc:Depends} 
+Provides: ${diverted-files}                                                     
+Conflicts: ${diverted-files}                                                    
+Description: sysctl firewall configuration package for Subgraph OS.                         
+ This configuration package includes the default settings for sysctl.
