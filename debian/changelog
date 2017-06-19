@@ -1,0 +1,5 @@
+subgraph-sysctl-config (1.0-1) unstable; urgency=medium
+
+  * Initial release.
+
+ -- David McKinney <mckinney@subgraph.com>  Mon, 19 Jun 2017 19:04:15 +0000
